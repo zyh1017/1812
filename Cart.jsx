@@ -5,6 +5,7 @@ import { connect } from 'react-redux'
 class Cart extends Component {
 
     // 主分支
+    // 主分支2
 
     // 数量减
     jian(i){
