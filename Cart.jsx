@@ -4,6 +4,8 @@ import { connect } from 'react-redux'
 
 class Cart extends Component {
 
+    // 主分支
+
     // 数量减
     jian(i){
         var arr = this.props.arr
