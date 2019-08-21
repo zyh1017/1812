@@ -4,10 +4,11 @@ import { connect } from 'react-redux'
 
 class Cart extends Component {
 
+    // dev 分支
+
     // 数量减
     jian(i){
         var arr = this.props.arr
-        
         if (arr[i].num <= 0) {
             // var jian = document.getElementsByClassName('jian')
             // jian.style.display='none'
