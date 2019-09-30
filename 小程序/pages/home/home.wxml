@@ -1,0 +1,35 @@
+<!--pages/home/home.wxml-->
+<view id="home">
+  <!-- 封面图片开始 -->
+  <image src="../../image/3.jpg" class="cover_image"></image>
+  <!-- 封面图片结束 -->
+  <!-- 名片开始 -->
+  <view class="homeCard">
+    <!-- 名字开始 -->
+    <view class="homeName">张玉晗</view>
+    <!-- 名字结束 -->
+    <!-- 手机开始 -->
+    <view class="homeCellNum">
+      <view class="homePhone">手机</view>
+      <view class="homeNumber">18039307253</view>
+      <button>拨打</button>
+    </view>
+    <!-- 手机结束 -->
+    <!-- 邮箱开始 -->
+    <view class="homeCellNum">
+      <view class="homePhone">邮箱</view>
+      <view class="homeNumber">zyh101712@163.com</view>
+      <button>复制</button>
+    </view>
+    <!-- 邮箱结束 -->
+    <!-- 职业开始 -->
+    <view class="homeCellNum">
+      <view class="homePhone">职业</view>
+      <view class="homeNumber">全栈开发</view>
+      <button>复制</button>
+    </view>
+    <!-- 职业结束 -->
+
+  </view>
+  <!-- 名片结束 -->
+</view>
